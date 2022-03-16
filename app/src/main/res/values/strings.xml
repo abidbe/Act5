@@ -2,8 +2,18 @@
     <string name="app_name">PraktikumPAM</string>
     <string name="judul1">Login</string>
     <string name="judul2">Login berhasil</string>
+    <string name="judul3">Pendaftaran</string>
     <string name="tEmail">Email</string>
     <string name="tPassword">Password</string>
     <string name="bsignin">Sign-in</string>
+    <string name="mdaftar">Pendaftaran</string>
+    <string name="ldaftar">Daftar</string>
+    <string name="enama">Masukkan Nama</string>
+    <string name="eemail">Masukkan Email</string>
+    <string name="epass">Masukkan Password</string>
+    <string name="erepass">Masukkan Password kembali</string>
+    <string name="ealamat">Masukkan alamat</string>
+    <string name="todo">TODO</string>
+
 
 </resources>

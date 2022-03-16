@@ -21,8 +21,11 @@
         <activity
             android:name=".Activityketiga"
             android:parentActivityName=".MainActivity"
-            android:label="@string/judul2"
-            ></activity>
+            android:label="@string/judul2" ></activity>
+        <activity
+            android:name=".DaftarActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/judul3"></activity>
     </application>
 
 </manifest>

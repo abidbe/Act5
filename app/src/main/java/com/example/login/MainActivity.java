@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
     String nama, password;
     String etemail = "abid";
     String etpass = "123";
-    EditText edtNama, edtAlamat, edtEmail, edtPass, edtrepass;
-    FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -14,6 +14,13 @@
     <string name="erepass">Masukkan Password kembali</string>
     <string name="ealamat">Masukkan alamat</string>
     <string name="todo">TODO</string>
+    <string name="lhtdata">Lihat Data</string>
+    <string name="eddt">Edit Data</string>
+    <string name="dtkontak">Data Kontak</string>
+    <string name="nmitem">Nama Item</string>
+    <string name="detailktk">Detail Kontak</string>
+    <string name="nama">Nama</string>
+    <string name="notel">Nomor Telepon</string>
 
 
 </resources>

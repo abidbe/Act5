@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFB6B6">
 
     <TextView
         android:id="@+id/textView"
@@ -70,6 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/epass"
         android:inputType="textPassword"
@@ -78,14 +80,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edemail"
-        tools:ignore="TextContrastCheck"
-        android:autofillHints="" />
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/edrepass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/erepass"
         android:inputType="textPassword"
@@ -94,8 +96,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edpass"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/edpass" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabsimpan"

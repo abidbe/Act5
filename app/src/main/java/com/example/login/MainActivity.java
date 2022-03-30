@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             Bundle b = new Bundle();
             b.putString("a", nama);
             b.putString("b", password);
-            Intent i = new Intent(MainActivity.this, Activityketiga.class);
+            Intent i = new Intent(MainActivity.this, HomeActivity.class);
             i.putExtras(b);
             startActivity(i);
         }

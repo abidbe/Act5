@@ -9,9 +9,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity
+            android:name=".LihatDataActivity"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".HomeActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".MainActivity"
-            android:label="@string/judul1"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/judul1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,12 +26,16 @@
         </activity>
         <activity
             android:name=".Activityketiga"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/judul2" ></activity>
+            android:label="@string/judul2"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DaftarActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/judul3"></activity>
+            android:label="@string/judul3"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
